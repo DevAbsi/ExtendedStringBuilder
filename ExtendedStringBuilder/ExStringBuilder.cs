@@ -20,14 +20,14 @@ namespace ExtendedStringBuilder
         }
 
         /// <summary>
-        /// Use this when you want to enable Writing to the file once you append data
+        /// Filename that will be used to write the data
         /// </summary>
         /// <param name="filename"></param>
         public ExStringBuilder(string filename)
         {
             this.filename = filename;
 
-            if (string.IsNullOrWhiteSpace(filename))
+            if (string.IsNullOrWhiteSpace(filename) == false)
             {
                 this.fileStream = new FileStream(this.filename, FileMode.Create, FileAccess.Write);
             }
@@ -39,14 +39,11 @@ namespace ExtendedStringBuilder
 
         public void AppendLine(string str)
         {
-            string data;
-
             lock (output)
             {
-                data = str;
-                // output.AppendLine(data);
+                output.AppendLine(str);
             }
-            SaveData(data + Environment.NewLine);
+            SaveData(str + Environment.NewLine);
         }
 
         public void Append(string str)
@@ -54,8 +51,8 @@ namespace ExtendedStringBuilder
             lock (output)
             {
                 output.Append(str);
-                SaveData(str);
             }
+            SaveData(str);
         }
 
         private void SaveData(string data)

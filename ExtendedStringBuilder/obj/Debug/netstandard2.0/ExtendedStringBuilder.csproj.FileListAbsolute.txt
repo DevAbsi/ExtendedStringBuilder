@@ -1,0 +1,8 @@
+C:\Users\Mahmoud\Desktop\Projects\ExtendedStringBuilder\ExtendedStringBuilder\bin\Debug\netstandard2.0\ExtendedStringBuilder.deps.json
+C:\Users\Mahmoud\Desktop\Projects\ExtendedStringBuilder\ExtendedStringBuilder\bin\Debug\netstandard2.0\ExtendedStringBuilder.dll
+C:\Users\Mahmoud\Desktop\Projects\ExtendedStringBuilder\ExtendedStringBuilder\bin\Debug\netstandard2.0\ExtendedStringBuilder.pdb
+C:\Users\Mahmoud\Desktop\Projects\ExtendedStringBuilder\ExtendedStringBuilder\obj\Debug\netstandard2.0\ExtendedStringBuilder.csprojAssemblyReference.cache
+C:\Users\Mahmoud\Desktop\Projects\ExtendedStringBuilder\ExtendedStringBuilder\obj\Debug\netstandard2.0\ExtendedStringBuilder.AssemblyInfoInputs.cache
+C:\Users\Mahmoud\Desktop\Projects\ExtendedStringBuilder\ExtendedStringBuilder\obj\Debug\netstandard2.0\ExtendedStringBuilder.AssemblyInfo.cs
+C:\Users\Mahmoud\Desktop\Projects\ExtendedStringBuilder\ExtendedStringBuilder\obj\Debug\netstandard2.0\ExtendedStringBuilder.dll
+C:\Users\Mahmoud\Desktop\Projects\ExtendedStringBuilder\ExtendedStringBuilder\obj\Debug\netstandard2.0\ExtendedStringBuilder.pdb
