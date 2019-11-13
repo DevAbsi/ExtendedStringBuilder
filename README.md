@@ -1,6 +1,6 @@
 # ExtendedStringBuilder
 Thread safe .Net class library that facilitate logging text to a file.
-The library can handle big files with ease, and have been tested with 10GB of data with no issues encoutered.
+The library can handle big files with ease, and have been tested with 10GB of data with no issues encountered.
 
 How to use it? 
 Just like the standard StringBuilder of .Net framework except that when you append any text to the builder it will write it directly to the file.
