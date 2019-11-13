@@ -1,10 +1,11 @@
 ﻿using System;
 using System.IO;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace ExtendedStringBuilder
 {
-    public class ExStringBuilder
+    public class ExStringBuilder : IDisposable
     {
         private StringBuilder output = new StringBuilder();
 
@@ -65,7 +66,7 @@ namespace ExtendedStringBuilder
         }
 
         /// <summary>
-        /// If you call this method will release the file lock and empty the output, no need to use dispose after
+        /// Calling this method will release the file lock and empty the output, no need to dispose after
         /// </summary>
         public void Close()
         {
